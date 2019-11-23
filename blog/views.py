@@ -17,6 +17,10 @@ posts = [
 
 
 def home(request):
+    """
+    :param request: dict
+    :return: home.html
+    """
     context = {
         'posts': posts
     }
@@ -24,6 +28,10 @@ def home(request):
 
 
 def about(request):
+    """
+    :param request: dict
+    :return: about.html
+    """
     return render(request, 'blog/about.html', {
         'title': 'about',
     })
