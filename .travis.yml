@@ -6,7 +6,7 @@ install:
   - pip install -r requirements/requirements.txt
 
 script:
-  - pylint blog/ Django_blog/
+  - pylint blog/ Django_blog/ users/
 
 ignore:
-  - blog/migrations
+  - blog/migrations users/migrations
