@@ -1,4 +1,4 @@
-# pylint: disable=W0611
 from django.contrib import admin
+from blog.models import Post
 
-# Register your models here.
+admin.site.register(Post)
