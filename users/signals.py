@@ -16,7 +16,7 @@ def create_profile(sender, instance, created, **kwargs):
     :return:
     """
     if created:
-        Profile.objects.create(user=instance) # pylint: disable=E1101
+        Profile.objects.create(user=instance)  # pylint: disable=E1101
 
 
 @receiver(post_save, sender=User)
