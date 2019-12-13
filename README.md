@@ -1,2 +1,3 @@
 # Django Blog
-### following Corey Schafer Django series
+### following Corey Schafer Django youtube tutorial
+
